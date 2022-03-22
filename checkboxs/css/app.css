@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: rgba(242, 242, 242, .6);
+    margin: 0 0 0 0;
+    display: block;
+    padding: 20px;
+}
+
+.content, .box-checkbox, .content-btn {
+    padding: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.input-checkbox {
+    padding: 5px;
+}
+
+#addCheck {
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #2952a3;
+    background-color: #2952a3;
+    color: white;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#removeCheck {
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.box-checkbox, .content-btn {
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.selects-checkboxs {
+    border: 1px solid grey;
+    height: auto;
+    overflow: auto;
+    padding: 20px;
+}

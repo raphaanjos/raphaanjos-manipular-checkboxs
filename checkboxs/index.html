@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="./css/app.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkboxs</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="content">
+            <div class="box">
+                <div class="h1">
+                    <h1>Manipulando checkbox</h1>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <p>Selecione itens</p>
+                </div>
+                <div class="box-checkbox" id="box-checkbox">
+                    <div class="input-checkbox">
+                        <input type="checkbox" name="car" value="car" class="checkbox" id="chbox-1">Car
+                    </div>
+                    
+                    <div class="input-checkbox">
+                        <input type="checkbox" name="bike" value="bike" class="checkbox" id="chbox-2">Bike
+                    </div>
+
+                    <div class="input-checkbox">
+                        <input type="checkbox" name="skate" value="skate" class="checkbox" id="chbox-3">Skate
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="content-btn">
+                    <button type="button" id="addCheck" onclick="inserir();">Inserir</button>
+                    <button type="button" id="removeCheck" onclick="remover();">Remover</button>
+                </div>
+                <!-- fim button -->
+                <div>
+                    <p>Itens selecionados</p>
+                </div>
+                
+                <div class="selects-checkboxs" id="selects-checkboxs"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>
